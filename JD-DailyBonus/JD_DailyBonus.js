@@ -48,10 +48,10 @@ var DualKey = ''; //该参数已废弃; 仅用于下游脚本的兼容, 请使�
 
 var OtherKey = ``; //无限账号Cookie json串数据, 请严格按照json格式填写, 具体格式请看以下样例:
 
-/*以下样例为双账号("cookie"为必须,其他可选), 第一个账号仅包含Cookie, 第二个账号包含Cookie和金融签到Body: 
+/*以下样例为双账号("cookie"为必须,其他可选), 第一个账号仅包含Cookie, 第二个账号包含Cookie和金融签到Body: */
 
 var OtherKey = `[{
-  "cookie": "pt_key=xxx;pt_pin=yyy;"
+  "cookie": "pt_key=AAJhOCntADABsOgYzEDgtRyGnD7f03okJv_rT57Z4QNHJVFvT6WZ5Kba8hOFRxjO33Co7HuSDzg;pt_pin=jd_7743c0d9c6973;"
 }, {
   "cookie": "pt_key=yyy;pt_pin=xxx;",
   "jrBody": "reqData=xxx"
@@ -105,7 +105,7 @@ hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 [mitm]
 hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 
-*************************/
+/*************************/
 
 var LogDetails = false; //是否开启响应日志, true则开启
 
